@@ -19,4 +19,6 @@ int main() {
 	double xmin = gs->minimize(func);
 	cout << gs->ax << "\n" << gs->bx << "\n" << gs->cx << "\n" << xmin;
 	return 0;
+
+	aaaaaaa
 }
