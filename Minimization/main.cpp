@@ -20,5 +20,4 @@ int main() {
 	cout << gs->ax << "\n" << gs->bx << "\n" << gs->cx << "\n" << xmin;
 	return 0;
 
-	aaaaaaa
 }
