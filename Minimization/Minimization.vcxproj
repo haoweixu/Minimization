@@ -115,12 +115,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Amoeba.cpp" />
     <ClCompile Include="Brent.cpp" />
     <ClCompile Include="GoldenSearch.cpp" />
+    <ClCompile Include="macro.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="bracket.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Amoeba.h" />
     <ClInclude Include="Brent.h" />
     <ClInclude Include="GoldenSearch.h" />
     <ClInclude Include="macros.h" />

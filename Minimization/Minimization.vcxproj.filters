@@ -27,6 +27,12 @@
     <ClCompile Include="Brent.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Amoeba.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="macro.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="macros.h">
@@ -39,6 +45,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Brent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Amoeba.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

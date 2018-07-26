@@ -1,6 +1,8 @@
 #ifndef _MACROS_
 #define _MACROS_
 
+#include<vector>
+
 using namespace std;
 
 template<class T>
@@ -29,5 +31,24 @@ inline void SWAP(T &a, T &b)
 {
 	T dum = a; a = b; b = dum;
 }
+
+
+class Matrix
+{
+public:
+	Matrix();
+	Matrix(size_t rows, size_t cols);
+	double& operator()(size_t i, size_t j);
+	double operator()(size_t i, size_t j) const;
+	int ncols();
+	int nrows();
+
+private:
+	size_t mRows;
+	size_t mCols;
+	std::vector<double> mData;
+};
+
+
 
 #endif // !_MACROS_
