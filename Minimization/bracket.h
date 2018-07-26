@@ -1,7 +1,7 @@
 #ifndef _Bracket_
 #define _Bracket_
 
-struct BracketMethod
+class BracketMethod
 {
 public:
 	double ax, bx, cx, fa, fb, fc;
