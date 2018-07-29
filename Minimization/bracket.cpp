@@ -5,12 +5,12 @@
 
 using namespace std;
 
-BracketMethod::BracketMethod()
+LineSearch::LineSearch()
 {
 	ax = bx = cx = 0;
 	fa = fb = fc = 0;
 }
 
-BracketMethod::~BracketMethod()
+LineSearch::~LineSearch()
 {
 }

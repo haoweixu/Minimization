@@ -2,11 +2,12 @@
 #define __BRENT__
 
 #include "bracket.h"
+#include "macros.h"
 
-class Brent : public BracketMethod
+
+class Brent : public LineSearch
 {
 public:
-	double xmin, fmin;
 	const double tol;
 
 	Brent(const double _tol = 1.0e-8) :tol(_tol) {};
@@ -88,8 +89,6 @@ double Brent::minimize(Func func) {
 	throw("Too many iterations in brent");
 
 }
-
-
 
 
 #endif

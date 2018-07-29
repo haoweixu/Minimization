@@ -2,25 +2,24 @@
 #define _GoldenSearch_
 
 #include "bracket.h"
+#include "macros.h"
 
-struct GoldenSearch : public BracketMethod
+struct GoldenSearch : public LineSearch
 {
 public:
 
-	double xmin, fmin;
 	double tol;
 
 	GoldenSearch(double _tol = 1e-8);
 	~GoldenSearch();
 
 	template <class Func>
-	double minimize(Func & func);
+	double minimize(Func func);
 	
 };
 
-
 template<class Func>
-double GoldenSearch::minimize(Func & func)
+double GoldenSearch::minimize(Func func)
 {
 	const double R = 0.61803399, C = 1.0 - R;
 	double x1, x2;
@@ -58,6 +57,7 @@ double GoldenSearch::minimize(Func & func)
 	}
 	return xmin;
 }
+
 
 
 #endif // !_GoldenSearch_

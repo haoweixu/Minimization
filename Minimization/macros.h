@@ -5,6 +5,8 @@
 
 using namespace std;
 
+// typedef double(*Func)(double);
+
 template<class T>
 inline T SQR(const T a) { return a * a; }
 

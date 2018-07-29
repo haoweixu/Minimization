@@ -33,6 +33,12 @@
     <ClCompile Include="macro.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="LineMethod.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Powell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="macros.h">
@@ -48,6 +54,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Amoeba.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LineMethod.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Powell.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -118,16 +118,20 @@
     <ClCompile Include="Amoeba.cpp" />
     <ClCompile Include="Brent.cpp" />
     <ClCompile Include="GoldenSearch.cpp" />
+    <ClCompile Include="LineMethod.cpp" />
     <ClCompile Include="macro.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="bracket.cpp" />
+    <ClCompile Include="Powell.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Amoeba.h" />
     <ClInclude Include="Brent.h" />
     <ClInclude Include="GoldenSearch.h" />
+    <ClInclude Include="LineMethod.h" />
     <ClInclude Include="macros.h" />
     <ClInclude Include="bracket.h" />
+    <ClInclude Include="Powell.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
